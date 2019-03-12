@@ -14,11 +14,9 @@ public class JDBCUtil {
 
     private static Connection connect;
     private static String driverClassName = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
-    private static String URL = "jdbc:sqlserver://10.89.65.160:1433;DatabaseName=jl";
+    private static String URL = "jdbc:sqlserver://127.0.0.1:1433;DatabaseName=jl";
     private static String username = "sa";
-//    private static String password = "gsw123"; //Sqcsqlpas1234567
-//    private static String password = "Jlz123!@#"; //Sqcsqlpas1234567
-    private static String password = "Sqcsqlpas1234567"; //Sqcsqlpas1234567
+    private static String password = "123456";
 
     /**
      * 类加载时加载数据库驱动
